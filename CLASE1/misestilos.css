@@ -1,0 +1,29 @@
+body {
+         
+         background-color:#c0c0c0; 
+     }
+
+h1,h2,h3,h4,h5 {text-align: center;}
+
+
+p.estrofa { 
+            
+            text-align: center;
+            vertical-align: middle;
+            margin: auto;
+            border: 2px dashed green;
+            width: 50%;
+            
+          }
+
+p.estrofa::first-line {
+                      color: #00c0ff;
+                      font-weight: bold;
+                      font-style:oblique;
+                      }
+
+p.estrofa::last-line {
+                      color: #00c0ff;
+                      font-weight: bold;
+                      font-style:italyc;
+                      }
